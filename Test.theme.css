@@ -1,0 +1,21 @@
+//META{"name":"Online Test Theme","description":"A theme to test calling code via the internet.","author":"1feihu","version":"1.0"}*//{}
+
+/* imports code and Global transparency module */
+@import url(https://raw.githack.com/1feihu/DiscordThemeHost/master/code.css);
+@import url(https://raw.githack.com/1feihu/DiscordThemeHost/master/transparency.css);
+
+:root {
+	/* background image URL, */
+	--background-image: url('https://images2.alphacoders.com/290/thumb-1920-29082.jpg') center/cover no-repeat;
+	/* Transparency */
+    --transparency-level: rgba(0,0,0,0.15); 
+	/* transparency of top windows bar works different from the top one for some reason you have to try different values to match transparecy (aprox value is top value x 3 = result) */
+	--transparency-level-top: rgba(0,0,0,0.45);
+	/* ESC Button color at settings */
+	--ESC-Button-color: rgba(43, 99, 57, 0.20);
+	/* transparency of settings page */
+	--transparency-settings: rgba(0,0,0,0.70);
+	/* Discord Guild Icon */
+	--background-guild-icon-image: url('https://i.imgur.com/mabl6hm.png') center/cover no-repeat;
+}
+/* Any other code below */
